@@ -4,7 +4,7 @@
   ## Mostrar uma mensagem informando se foi aprovado ou não.
   ## A nota de corte é 5.
 
-  - let numero1 = parseFloat(prompt("Digite a Primeira -  Nota"));
+  - let numero1 = parseFloat(prompt("Digite a Primeira Nota"));
   - let numer2 = parseFloat(prompt("Digite a Segunda Nota"));
   - let media = (numero1 + numer2) / 2;
 
