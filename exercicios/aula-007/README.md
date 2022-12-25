@@ -7,23 +7,16 @@
 ## se o numero sorteado for 0, ganha quem escolher o numero Menor.
 ## se o numero sorteado for 1, ganha quem escolher o numero Maior.
 
--  let jogador1 = parseInt(prompt("Numero do jogador 1"));
-   let jogador2 = parseInt(prompt("Numero do jogador 2"));
-   if(jogador1 === jogador2) {
-   alert(" Vocês Empataram ");
-   } else{
-      let sortear = parseInt(Math.random() * 2);
-      if(sortear === 0){
-         if(jogador1 < jogador2){
-            alert("ganhou o jogador 1");
-         }else{
-            alert("ganhou o jogador 2");
-         }
-      }else {
-         if(jogador1 > jogador2){
-         alert("ganhou o jogador 1");
-         }else {
-         alert("ganhou o jogador 2");
-         }
+- let jogador1 = parseInt(prompt("Numero do jogador   1"));
+let jogador2 = parseInt(prompt("Numero do jogador 2"));
+if(jogador1 === jogador2) {
+  alert(" Vocês Empataram ");
+} else{
+      let sorteado = parseInt(Math.random() * 2);
+      alert("sorteado" + sorteado);
+      if(sorteado === 0 && jogador1 < jogador2 || sorteado === 1 && jogador1 > jogador2){
+        alert("JOGADOR 1 GANHOU");
+      } else{
+        alert("JOGADOR 2 GANHOU");
       }
-   }
+}
