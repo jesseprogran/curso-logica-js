@@ -1,0 +1,48 @@
+<!--
+  Elaborar um programa que leia o valor de um jantar.
+  Calcule e informe o valor da taxa do garçon (10%).
+  e o valor total a ser pago
+
+  valor do jantar R$: 80.00
+  Taxa do Garçom R$: 8.00
+  Total a Pagar R$: 88.00
+-->
+
+<!-- <script>
+ // entrada de dados: lê o valor do jantar.
+ let jantar = Number(prompt("Valor do Jantar R$: "));
+
+ //processamento:  calcular as taxas do garçom.
+ let garcon = jantar * 0.10;
+ let total = jantar + garcon;
+
+ // saída de dados: apresentar os valores no alert.
+ console.log(` A Taxa que o Garçon vai Receber será de: R$ ${garcon.toFixed(2)}, e o Total do Jantar será de: R$ ${total.toFixed(2)}`);
+ alert(` A Taxa que o Garçon vai Receber será de: R$ ${garcon.toFixed(2)}, e o Total do Jantar será de: R$ ${total.toFixed(2)}`);
+
+</script> -->
+
+<!--
+  Elaborar um programa que leia o valor de um carro 0km.
+  Calcule e informe o valor da taxa do desconto do Carro (30%).
+  e o valor total a ser pago.
+
+  valor do Carro R$: 80.000
+  Total de DEsconto R$: 800.00
+  Total a Pagar R$: 70.200
+-->
+<script>
+  //Dados de Entrada: le um valor do carro.
+  let carro = Number(prompt("Valor do Carro R$: "));
+
+  //Processamento: calcular os descontos do carrfo
+  let desconto = carro * 0.30;
+  let total = carro; 
+  let valorFinal = carro - desconto;
+
+  //Saída de dados será exibida no alert e no console
+
+  alert("O Desconto será de R$: " + desconto.toFixed(3) +  " o total do carro é R$: " + total.toFixed(3) + " Valor Final do Carro com o Desconto será de R$: " + valorFinal.toFixed(3));
+
+  console.log(` O valor Total do carro é R$ ${total.toFixed(3)}, com o Desconto de R$ ${desconto.toFixed(3)} então você vai Pagar com desconto o valor de R$: ${valorFinal.toFixed(3)}`);
+</script>
